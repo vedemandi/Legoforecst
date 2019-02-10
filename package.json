@@ -1,0 +1,29 @@
+{
+  "name": "legoforecst",
+  "version": "1.0.0",
+  "description": "legoforecast",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedemandi/Legoforecst.git"
+  },
+  "author": "ved emandi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vedemandi/Legoforecst/issues"
+  },
+  "homepage": "https://github.com/vedemandi/Legoforecst#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
